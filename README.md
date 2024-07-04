@@ -175,6 +175,6 @@ See
 
 ## Examples
 
-* Very simple example:  [[example-plan-1.md]](examples/example-plan-1.md) and [[schema-example-1.json]](examples/schema-example-1.json)
-* A bit more formal plan: [[example-plan-2.md]](examples/example-plan-2.md) and [[schema-example-2.json]](examples/schema-example-2.json)
-* Even more formal plan: [[example-plan-3.md]](examples/example-plan-3.md) and [[schema-example-3.json]](examples/schema-example-3.json)
+* Very simple example:  [[example-plan-1.md]](examples/example-plan-1.md) and [[schema-example-1.json]](examples/schema-example-1.md)
+* A bit more formal plan: [[example-plan-2.md]](examples/example-plan-2.md) and [[schema-example-2.json]](examples/schema-example-2.md)
+* Even more formal plan: [[example-plan-3.md]](examples/example-plan-3.md) and [[schema-example-3.json]](examples/schema-example-3.md)
