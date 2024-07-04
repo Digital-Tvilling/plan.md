@@ -173,6 +173,6 @@ Based on schema [todo-schema.md](todo-schema.md).
 ## Other examples
 See 
 
-* Very simple example:  [[example-plan-1]] and [[schema-example-1]]
+* Very simple example:  [examples/example-plan-1] and [[schema-example-1]]
 * A bit more formal plan: [[example-plan-2]] and [[schema-example-2]]
 * Even more formal plan: [[example-plan-3]] and [[schema-example-3]] 
