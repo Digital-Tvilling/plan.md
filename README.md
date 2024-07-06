@@ -13,7 +13,7 @@ Why do this:
 - **Extendability:** Easily extend and customize your plans as needed.
 - **Flexibility:** Customize schemas to fit any type of plan – from project management to personal to-do lists.
 - **Collaboration:** Markdown is great for collaboration, making it simple to share and edit plans with others.
-- **Interoperability:** `plan.md` allows multiple different plan structures to co-exist.
+- **Interoperability:** plan.md allows multiple different plan structures to co-exist. Different planning methods use different terminologies, such as "task" vs "activity" or formal project management methods vs adaptations. Through plan.md, these variations can be handled individually and formalized to ensure clarity and consistency. This flexibility enables users to adopt and integrate various planning methodologies seamlessly within the same framework.
 
 ## What it is not
 
