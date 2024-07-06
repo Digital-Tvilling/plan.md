@@ -1,7 +1,7 @@
 # plan.md
 
 ## Introduction
-Welcome to `plan.md` – a neat way (for some...) to formulate plans using Markdown and schemas. 
+Welcome to `plan.md` – a neat way (for some...) to formulate plans using Markdown and schemas.
 
 ## What it is
 
@@ -9,18 +9,18 @@ The basic idea is to define some standards in how plans, in general, can be form
 
 Why do this:
 - **Files/text first:** Keep/convert your plans in plain text files for easy access and management.
-- **Simplicity:** Using Markdown makes creating and reading plans easy and enjoyable. Especially using LLMs. 
+- **Simplicity:** Using Markdown makes creating and reading plans easy and enjoyable. Especially using LLMs.
 - **Extendability:** Easily extend and customize your plans as needed.
 - **Flexibility:** Customize schemas to fit any type of plan – from project management to personal to-do lists.
 - **Collaboration:** Markdown is great for collaboration, making it simple to share and edit plans with others.
-- **Interoperability:** `plan.md` allows multiple different plan structures to co-exist. 
+- **Interoperability:** `plan.md` allows multiple different plan structures to co-exist.
 
 ## What it is not
 
-A visualization libary or software application. 
+A visualization library or software application.
 
 ## Todo
-The work is a bit experimental and still in development and feedback is very welcome. Feedback and issues are handled as issues. 
+The work is a bit experimental and still in development and feedback is very welcome. Feedback and issues are handled as issues.
 
 # File Types
 
@@ -60,22 +60,21 @@ The core structure of the schema, detailing the main components and their attrib
 
 ## Plan Structure
 A summary of the key components that must be included in plan files, following the defined schema.
-
 ```
 
 ## Reserved terms
 
-Reserved terms are written `like this` and carries specific meaning in the schema. The currently reserved words are: 
+Reserved terms are written `like this` and carry specific meaning in the schema. The currently reserved words are:
 * `Values`: A set of values for a Predefined List
 * `Progressions`: If there is a sequence in which the Predefined List should progress
-* `MD-representations`: Key-value pairs for a Predefined List, e.g. "`- [ ]`: Not Done "
-* `List of`: Used in Schema definition to show that one component can contain a list of other components 
+* `MD-representations`: Key-value pairs for a Predefined List, e.g., "`- [ ]`: Not Done"
+* `List of`: Used in Schema definition to show that one component can contain a list of other components
 
-For types the following terms can be used as paramthesis:
-* (unique): 
-* (unique within plan): 
-* (required): 
-* (optinal): 
+For types, the following terms can be used as parenthesis:
+* (unique): Indicates the field must be unique.
+* (unique within plan): Indicates the field must be unique within the plan.
+* (required): Indicates the field is mandatory.
+* (optional): Indicates the field is not mandatory.
 
 ## Basic Types
 The basic types supported in the schema are:
@@ -91,7 +90,6 @@ The basic types supported in the schema are:
 3. **Validation:** Ensure that the plan file adheres to the structure and rules defined in the schema for consistency and accuracy.
 
 This guide should help you create and manage schema and plan files effectively, ensuring that your plans are structured and validated properly.
-
 
 # Examples
 ## Simple
@@ -128,7 +126,6 @@ Based on schema [todo-schema.md](todo-schema.md).
 - **Status:** Not Done
 ```
 
-
 ### todo-list-schema.md
 
 ```markdown
@@ -138,7 +135,8 @@ Based on schema [todo-schema.md](todo-schema.md).
 - **Last Updated:** 2024-07-03
 - **Author:** Your Name
 - **Description:** This schema defines the structure and components of a personal to-do list for validation purposes.
-## Version history
+
+## Version History
 
 # Custom Data Types
 
@@ -148,8 +146,8 @@ Based on schema [todo-schema.md](todo-schema.md).
 - **`Values`:** Not Done, Done
 - **`Progressions`:**
   - Not Done -> Done
-- **`MD-representations`:** 
- - `- [ ]`: Not Done 
+- **`MD-representations`:**
+ - `- [ ]`: Not Done
  - `- [x]`: Done
 
 ## Objects
@@ -168,12 +166,9 @@ Based on schema [todo-schema.md](todo-schema.md).
 # Plan Structure
 - **Overview:** ToDo List (required)
 - **Tasks:** `List of` Task (required)
-
 ```
-## Other examples
-See 
 
-## Examples
+## Other examples
 
 * Very simple example:  [[example-plan-1.md]](examples/example-plan-1.md) and [[schema-example-1.json]](examples/schema-example-1.md)
 * A bit more formal plan: [[example-plan-2.md]](examples/example-plan-2.md) and [[schema-example-2.json]](examples/schema-example-2.md)
