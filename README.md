@@ -56,10 +56,10 @@ Lists of predefined values. Can also contain progression rules and MD-representa
 Definitions of complex data types with their attributes.
 
 ## Plan Schema
-The core structure of the schema, detailing the main components and their attributes.
+The core structure of the schema, detailing the main plan components and their attributes.
 
 ## Plan Structure
-A summary of the key components that must be included in plan files, following the defined schema.
+A summary of the key plan components that must be included in plan files, following the defined schema.
 ```
 
 ## Reserved terms
@@ -68,7 +68,7 @@ Reserved terms are written `like this` and carry specific meaning in the schema.
 * `Values`: A set of values for a Predefined List
 * `Progressions`: If there is a sequence in which the Predefined List should progress
 * `MD-representations`: Key-value pairs for a Predefined List, e.g., "`- [ ]`: Not Done"
-* `List of`: Used in Schema definition to show that one component can contain a list of other components
+* `List of`: Used in Schema definition to show that one plan component can contain a list of other plan components
 
 For types, the following terms can be used as parenthesis:
 * (unique): Indicates the field must be unique.
